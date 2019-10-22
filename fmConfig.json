@@ -2,6 +2,5 @@
   "name": "widget-template",
   "type": "widget",
   "widgetType": "entity",
-  "distFolder": "dist",
-  "guid": "555555"
+  "distFolder": "build"
 }

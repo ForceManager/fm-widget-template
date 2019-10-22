@@ -1,34 +1,31 @@
-## Marchesini USA Widget Milestones
+## ForceManager Widget Template
 
-Custom widget for web4.
+Custom widget template for ForceManager web4.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode with the context and brigeBackend listening for bridge calls.<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `fm-cli start`
-
-Runs the development enviroment with the context and brigeBackend listening for bridge calls.
-
-### `npm run build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.<br>
-PUBLIC_URL constant is defined in .env file
-Set PUBLIC_URL='/code/A3353D8A-DCD9-4C11-BAA5-0050ADE2389C' for development (80965-MARCHESINIUSA_DUMMY)
-Set PUBLIC_URL='/code/FFE57F31-A97F-4F3C-9B0A-C40A60BFE202' for production (76967-MARCHESINIUSA)
 
-### `fm-cli deploy`
+### `yarn build-sandbox`
 
-Not working yet.
+Builds the app for sandbox to the `build` folder.<br>
 
-## `Manual Deploy`
+### `yarn deploy`
 
-Copy files to AWS fmfragments/code/{GUID}
+Build and deploy the project for production to the standard ForceManager fragments hosting.
+
+### `yarn deploy-sandbox`
+
+Build and deploy the project for sandbox to the standard ForceManager fragments hosting.
