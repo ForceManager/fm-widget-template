@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { HoiPoiProvider } from 'hoi-poi-ui';
+import { MuiPickersUtilsProvider } from '@material-ui/pickers';
+import { ThemeProvider } from '@material-ui/styles';
+import MomentUtils from '@date-io/moment';
+import materialTheme from './configs/materialTheme';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './index.scss';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+  <HoiPoiProvider>
+    <MuiPickersUtilsProvider utils={MomentUtils}>
+      <ThemeProvider theme={materialTheme}>
+        <App />
+      </ThemeProvider>
+    </MuiPickersUtilsProvider>
+  </HoiPoiProvider>,
+  document.getElementById('root'),
+);
