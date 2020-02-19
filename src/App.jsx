@@ -17,10 +17,10 @@ function App() {
 
   const handleButtonClick = useCallback(() => {
     let url;
-    if (context.entity === CONSTANTS.ENTITY.ACCOUNT.toString()) {
-      url = `/opportunities/${context.entityId.toString()}`;
-    } else if (context.entity === CONSTANTS.ENTITY.OPPORTUNITY.toString()) {
-      url = `/accounts/${context.entityId.toString()}`;
+    if (parseInt(context.entityType.id, 10) === CONSTANTS.ENTITY.ACCOUNT) {
+      url = `/opportunities/${context.entity.id.toString()}`;
+    } else if (parseInt(context.entityType.id, 10) === CONSTANTS.ENTITY.OPPORTUNITY) {
+      url = `/accounts/${context.entity.id.toString()}`;
     }
     axios
       .get(url)
