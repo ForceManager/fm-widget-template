@@ -13,7 +13,7 @@
 
 - Go to the folder where you want to create the project.
 
-`fm-cli create <new-project-name>`
+`fm create <new-project-name>`
 
 - Select Type: Form.
 
@@ -61,12 +61,11 @@ PUBLIC_URL constant is defined in .env file.
 
 ### 9) Deploy
 
-#### Via CLI (Not working yet)
+#### Via CLI
 
 `yarn deploy` or `npm deploy`
 
-To deploy the code to the standard ForceManager server form fragments https://fmfragments.s3.amazonaws.com/fmfragments/code/{GUID}
-Not working yet.
+To deploy the code to ForceManager Fragments repository
 
 ### Manually
 
