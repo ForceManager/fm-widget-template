@@ -54,7 +54,7 @@ Start modifying App.jsx!
 
 ### 8) Build
 
-`yarn build` or `npm build`
+`yarn build` or `npm run build`
 
 Builds the app for production to the `build` folder.
 PUBLIC_URL constant is defined in .env file.
@@ -63,7 +63,7 @@ PUBLIC_URL constant is defined in .env file.
 
 #### Via CLI
 
-`yarn deploy` or `npm deploy`
+`yarn deploy` or `npm run deploy`
 
 To deploy the code to ForceManager Fragments repository
 
