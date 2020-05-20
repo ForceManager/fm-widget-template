@@ -1,6 +1,6 @@
 ## ForceManager Widget Template
 
-Custom widget template for ForceManager web4.
+Custom widget template for ForceManager web app.
 
 ## Available Scripts
 
@@ -24,8 +24,8 @@ Builds the app for sandbox to the `build` folder.<br>
 
 ### `yarn deploy` or `npm run deploy`
 
-Build and deploy the project for production to the standard ForceManager fragments hosting.
+Build and deploy the project for production to the standard ForceManager fragments repository.
 
 ### `yarn deploy-sandbox` or `npm run deploy-sandbox`
 
-Build and deploy the project for sandbox to the standard ForceManager fragments hosting.
+Build and deploy the project for sandbox to the standard ForceManager fragments repository.
