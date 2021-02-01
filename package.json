@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "fm-bridge": "^0.0.1-beta.23",
-    "hoi-poi-ui": "^0.0.2",
+    "hoi-poi-ui": "^0.0.43",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
