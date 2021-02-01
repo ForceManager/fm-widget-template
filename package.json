@@ -6,15 +6,15 @@
   "dependencies": {
     "fm-bridge": "^0.0.3",
     "hoi-poi-ui": "^0.0.43",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
     "react-scripts": "^4.0.1"
   },
