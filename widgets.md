@@ -15,7 +15,7 @@
 
 `fm create <new-project-name>`
 
-- Select Type: Form.
+- Select Type: Widget.
 
 An empty project will be created in the specified <new-project-name> directory.
 
